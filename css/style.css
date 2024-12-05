@@ -1,0 +1,115 @@
+/* BAGE EM GERAL */ 
+body 
+{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header 
+{
+  background-color: #006494	;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+main 
+{
+  padding: 20px;
+}
+
+h2 
+{
+  color: #13293D;
+}
+  
+form label, form input, form select 
+{
+  display: block;
+  margin: 10px 0;
+}
+
+form input, form button 
+{
+  padding: 10px;
+  width: 98%;
+}
+
+form select
+{
+  padding: 10px;
+  width: 1490px;
+}
+
+button 
+{
+  background-color: #1b518f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+button:hover
+{
+  background-color: MidnightBlue;
+}
+
+
+
+/* RESUMO FINANCEIRO */
+/* Centralizar os gráficos */
+#charts-section 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+canvas 
+{
+  max-width: 600px;
+  width: 100%;
+}
+
+
+
+/*LISTAGEM e EDIÇÃO*/
+/* Estilo para as tabelas */
+table 
+{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td 
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th 
+{
+  background-color:  #006494;
+  color: white;
+}
+
+table tr:nth-child(even) 
+{
+  background-color: #f2f2f2;
+}
+
+table tr:hover 
+{
+  background-color: #ddd;
+}
+
+
+
+
